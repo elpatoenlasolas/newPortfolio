@@ -1,0 +1,9 @@
+.abt-container {
+    display: flex;
+    justify-content: center;
+}
+
+.abt-text {
+    margin: 50px auto 50px;
+    max-width: 950px;
+}

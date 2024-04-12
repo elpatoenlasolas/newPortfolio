@@ -1,0 +1,18 @@
+a.navbar-item:hover {
+border-radius: 10px;
+color:rgba(72, 72, 72, 0.681);
+}
+
+a.navbar-item:focus {
+background-color: rgba(156, 156, 156, 0.074);
+color: rgb(86, 157, 255);
+border-radius: 8px;
+}
+
+a.navbar-item:hover:active {
+color: rgb(53, 138, 224);
+}
+
+.navbar-item img {
+    max-height: 42px;
+}

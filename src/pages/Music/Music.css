@@ -1,0 +1,18 @@
+.main-sound {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 500px;
+    height: auto;
+  }
+  
+  .sound-container iframe {
+    width: 500px;
+  }
+  

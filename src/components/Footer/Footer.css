@@ -1,0 +1,29 @@
+
+.social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .icon i {
+    margin: 5px;
+  }
+  
+  .fa-instagram {
+    font-size: 25px;
+    transition: all .1s linear;
+  }
+  
+  .icon i:hover {
+    text-shadow: 2px 2px 3px rgba(161, 161, 161, 0.307);
+  }
+  
+  .fa-github {
+    font-size: 25px;
+    transition: all .25s linear;
+  }

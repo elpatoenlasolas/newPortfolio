@@ -1,0 +1,9 @@
+.wb-link:hover {
+    color: rgb(251, 199, 54);
+    font-weight: 600;
+  }
+  
+  .pref:hover {
+    color: rgb(54, 192, 251);
+    font-weight: 600;
+  }

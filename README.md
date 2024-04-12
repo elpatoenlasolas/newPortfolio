@@ -1,6 +1,6 @@
 # New portfolio designed with React & Bulma
 
-## Deployment can be found [here](https://new-portfolio-gamma-sandy-40.vercel.app/)
+### Deployment can be seen [here](https://new-portfolio-gamma-sandy-40.vercel.app/)
 
 
 

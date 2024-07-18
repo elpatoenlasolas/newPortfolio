@@ -2,12 +2,6 @@ h1 {
   font-size: 18px;
 }
 
-.container {
-  min-width: 1200px;
-  display: flex;
-  justify-content: center;
-}
-
 .App {
   text-align: center;
 }

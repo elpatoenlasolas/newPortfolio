@@ -13,9 +13,8 @@ function Contact() {
 
     return (
         <>
-        <div className="container">
-            <div className="form-body">
-                <div className="form-border">
+        <div className="form-container">
+            <form className="form-body">
                     <div className="field">
                         <label className="label">Name</label>
                             <div className="control has-icons-left">
@@ -48,8 +47,7 @@ function Contact() {
                             <button className="button is-info is-light">Cancel</button>
                         </div>
                     </div>
-                </div>
-            </div>
+            </form>
         </div>
     </>
 

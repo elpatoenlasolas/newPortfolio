@@ -1,4 +1,4 @@
-# New portfolio designed with React & Bulma
+# Personal Portfolio
 
 ### Deployment can be seen [here](https://new-portfolio-gamma-sandy-40.vercel.app/)
 
@@ -7,4 +7,6 @@
 
 
 
-#### Please do not fork or pull request, it's a temporary deployment that will be updated with a final release soon.
+#### Please do not fork or pull request.
+
+Any changes or feedback should be addressed personally. Please [email](patofunes@gmail.com) me for that reason.

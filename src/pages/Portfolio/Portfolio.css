@@ -1,5 +1,10 @@
+@import '../../components/fx/fx.css';
 
 .portfolio-title {
     margin: 16px auto 16px !important;
     text-align: center;
   }
+
+.hero {
+  animation: fadeIn 1s linear 1;
+}

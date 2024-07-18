@@ -5,7 +5,7 @@ import "./Home.css";
 function Home () {
     return (
         <>
-  <div className="bd-is-snippet bd-is-fullwidth bd-is-horizontal bd-is-size-1">
+  <div className="home bd-is-snippet bd-is-fullwidth bd-is-horizontal bd-is-size-1">
     <section className="section is-medium">
         <h1 className="title is-1">Hi! I'm Pato.</h1>
         <h2 className="subtitle is-1">

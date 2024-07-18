@@ -1,9 +1,15 @@
+@import '../../components/fx/fx.css';
+
 .wb-link:hover {
-    color: rgb(251, 199, 54);
-    font-weight: 600;
-  }
-  
-  .pref:hover {
-    color: rgb(54, 192, 251);
-    font-weight: 600;
-  }
+  color: rgb(251, 199, 54);
+  font-weight: 600;
+}
+
+.pref:hover {
+  color: rgb(54, 192, 251);
+  font-weight: 600;
+}
+
+.home {
+  animation: slideLeft linear 1.5s 1, fadeIn linear 1.5s 1;
+}

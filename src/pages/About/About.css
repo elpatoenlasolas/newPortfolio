@@ -1,9 +1,39 @@
+@import '../../components/fx/fx.css';
+
 .abt-container {
     display: flex;
     justify-content: center;
+    animation: fadeIn 1s linear 1;
 }
 
 .abt-text {
-    margin: 50px auto 50px;
-    max-width: 950px;
+    margin: 120px auto 120px;
+    max-width: 50%;
+}
+
+.abt-text h2 {
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.abt-text p {
+    font-size: 1.2em;
+}
+
+.pfp {
+    margin: 120px auto 120px;
+    width: 35%;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+   .abt-container {
+    flex-direction: column;
+   }
+   .abt-text {
+    max-width: 75%;
+   }
+   .pfp {
+    display: none;
+   }
 }

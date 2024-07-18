@@ -1,6 +1,7 @@
 .main-sound {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
   
   .sound-container {

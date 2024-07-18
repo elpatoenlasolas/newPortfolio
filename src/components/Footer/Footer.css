@@ -1,3 +1,4 @@
+@import '../fx/fx.css';
 
 .social {
     display: flex;
@@ -12,18 +13,27 @@
   
   .icon i {
     margin: 5px;
+    transition: all .15s ease-in;
   }
   
   .fa-instagram {
     font-size: 25px;
-    transition: all .1s linear;
   }
   
   .icon i:hover {
-    text-shadow: 2px 2px 3px rgba(161, 161, 161, 0.307);
+    color: rgba(124, 122, 122, 0.755);
   }
   
   .fa-github {
     font-size: 25px;
-    transition: all .25s linear;
+  }
+
+  .fa-linkedin {
+    font-size: 27px;
+  }
+
+  .footer {
+    animation: 
+    slideUp linear 1.5s 1,
+    fadeIn linear 1.5s 1;
   }

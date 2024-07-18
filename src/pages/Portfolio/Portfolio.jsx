@@ -8,8 +8,8 @@ function Portfolio() {
 return (
 
   // Intro Hero
-    <div className='bd-is-snippet bd-is-fullwidth bd-is-horizontal bd-is-size-1'>
-      <section className="hero is-medium is-beautiful">
+  <div className='bd-is-snippet bd-is-fullwidth bd-is-horizontal bd-is-size-1 pfl-body'>
+      <section className="hero is-medium is-black">
         <div className="hero-body">
           <p className="title">Portfolio</p>
           <p className="subtitle">Here are some of my most recent works.</p>
@@ -29,24 +29,7 @@ return (
         <Card />
       </div>
     </section>
-
-
-  {/* Title Hero */}
-  <section className="hero is-small is-cool">
-      <div className="hero-body">
-        <h1 className="title portfolio-title">Web Apps</h1>
-      </div>
-    </section>
-
-
-  {/* Cards */}
-  <section className="hero is-fullheight is-chill">
-      <div className="hero-body">
-        <Card />
-      </div>
-    </section>
-
-      </div>
+  </div>
 )
 }
 

@@ -52,7 +52,7 @@ function Card() {
                     <div className="card-feature-type">Estonia</div>
                     <div className="title"><h1>USTA</h1></div>
                     <div className="info">
-                        <p>Sit Stay Dog School provides animal training services in Sydney's Eastern Suburbs with group puppy classes available in Bondi, Coogee and Vaucluse.</p>
+                        <p>SUS Tennis Academy is Estonia's leading tennis school, boasting the highest enrollment and exceptional competitive achievements.</p>
                     </div>
                     <div className="website"><Link to="https://usta.ee" target="_blank">Website</Link></div>
 

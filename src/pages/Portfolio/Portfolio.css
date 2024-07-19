@@ -1,8 +1,8 @@
 @import '../../components/fx/fx.css';
 
 .portfolio-title {
-    margin: 16px auto 16px !important;
-    text-align: center;
+    margin: 16px 50px 16px !important;
+    text-align: start;
   }
 
 .hero {

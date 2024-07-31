@@ -1,57 +1,59 @@
-import { useState } from 'react';
 import "./Contact.css";
+import { initializeEmailJS, sendMail } from "../../components/Scripts/script";
+import { useEffect } from "react";
 
 function Contact() {
 
-    const [submit, setSubmit] = useState(null);
+    useEffect(() => {
+        initializeEmailJS();
+    }, []);
 
     function handleSubmit(e) {
-        submit.e.target(() => {
-           return setSubmit(console.log('Ive been submitted'))
-        })
+        e.preventDefault();
+
+        sendMail();
     }
 
     return (
         <>
-        <div className="form-container">
-            <form className="form-body">
+            <div className="form-container">
+                <form className="form-body" onSubmit={handleSubmit}>
                     <div className="field">
-                        <label className="label">Name</label>
-                            <div className="control has-icons-left">
-                                <input className="input" type="text" placeholder="Name" required="true" />
-                                <span className="icon is-small is-left">
-                                    <i className="fas fa-user" />
-                                </span>
-                            </div>
+                        <label className="label" htmlFor="name">Name</label>
+                        <div className="control has-icons-left">
+                            <input className="input" type="text" id="name" placeholder="Name" required />
+                            <span className="icon is-small is-left">
+                                <i className="fas fa-user" />
+                            </span>
+                        </div>
                     </div>
                     <div className="field">
-                        <label className="label">Email</label>
-                            <div className="control has-icons-left">
-                                <input className="input" type="email" placeholder="Email" required="true" />
-                                <span className="icon is-small is-left">
-                                    <i className="fas fa-envelope" />
-                                </span>
-                            </div>
+                        <label className="label" htmlFor="email">Email</label>
+                        <div className="control has-icons-left">
+                            <input className="input" type="email" id="email" placeholder="Email" required />
+                            <span className="icon is-small is-left">
+                                <i className="fas fa-envelope" />
+                            </span>
+                        </div>
                     </div>
                     <div className="field">
-                        <label className="label">Message</label>
-                            <div className="control">
-                                <textarea className="textarea" placeholder="Type your message here" defaultValue={""} required="true" />
-                            </div>
+                        <label className="label" htmlFor="message">Message</label>
+                        <div className="control">
+                            <textarea className="textarea" id="message" placeholder="Type your message here" required></textarea>
+                        </div>
                     </div>
                     <div className="field is-grouped">
                         <div className="control">
-                            <button className="button is-info" onSubmit={(handleSubmit)}>Submit</button>
+                            <button className="button is-info" type="submit">Submit</button>
                         </div>
                         <div className="control">
-                            <button className="button is-info is-light">Cancel</button>
+                            <button className="button is-info is-light" type="button">Cancel</button>
                         </div>
                     </div>
-            </form>
-        </div>
-    </>
-
-    )
+                </form>
+            </div>
+        </>
+    );
 }
 
 export default Contact;

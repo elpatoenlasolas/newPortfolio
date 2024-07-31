@@ -1,5 +1,6 @@
 import React from "react";
 import Card from '../../components/card/PortfolioCard';
+import ProjectCard from "../../components/project-card/ProjectCard";
 import { Link  } from 'react-router-dom';
 import "./Portfolio.css";
 
@@ -29,6 +30,18 @@ return (
         <Card />
       </div>
     </section>
+    {/* Title Hero */}
+    <section className="hero is-small is-cool">
+    <div className="hero-body">
+        <h1 className="title portfolio-title">Projects</h1>
+      </div>
+    </section>
+    <section className="hero is-fullheight is-chill">
+      <div className="hero-body">
+        <ProjectCard />
+      </div>
+    </section>
+
   </div>
 )
 }

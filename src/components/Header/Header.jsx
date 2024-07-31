@@ -49,7 +49,7 @@ function Header() {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <NavLink className="button contact-btn" to="/contact">
+                <NavLink className="button contact-btn" to="/contact" activeClassName='is-active' onClick={closeMenu}>
                   <strong>Contact me!</strong>
                 </NavLink>
               </div>

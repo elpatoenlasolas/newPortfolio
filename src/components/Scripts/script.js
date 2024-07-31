@@ -1,4 +1,4 @@
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 function initializeEmailJS() {
     emailjs.init("cpjC4NJP5ymKa_Zz5"); 

@@ -13,10 +13,10 @@ function Home () {
         </h2>
         <h3 className="subtitle is-4">
         I'm also a Web Developer, currently studying Front-End, <br /> 
-        and Co-Founder of <a className="wb-link" href="https://wabi-sabi.digital" target="_blank" rel="noreferrer">WABISABI</a>.
+        and Co-Founder of <Link className="wb-link link" to="https://wabi-sabi.digital" target="_blank">WABISABI</Link>.
         </h3>
         <p className="to-right">
-          Feel free to check my <Link className="pref" to="portfolio">portfolio</Link>, and audiovisual art works.
+          Feel free to check my <Link className="pref link" to="portfolio">portfolio</Link>, and audiovisual art works.
         </p>
     </section>
     </div>

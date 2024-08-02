@@ -1,33 +1,36 @@
-h1 {
-  font-size: 18px;
+body {
+  font-family: 'Sora', sans-serif;
+}
+
+.link {
+  color: black;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-footer {
-  width: 100%;
-  bottom: 0;
-  position: relative;
+.button {
+  border-radius: 10px !important;
+  margin-right: 10px;
+}
+
+.hero.is-fullheight .hero-body {
+  justify-content: center;
+}
+
+.is-beautiful {
+  background-color: #d3f6ffb5;
+}
+
+.is-cool {
+  background-color: #fff;
+}
+
+.is-chill {
+  background-color: #e6e5e5;
 }

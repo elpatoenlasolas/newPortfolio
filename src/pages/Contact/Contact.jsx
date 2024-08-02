@@ -1,36 +1,12 @@
 import "./Contact.css";
-import { useEffect } from "react";
-import emailjs from '@emailjs/browser';
+import { useEffect, useState } from "react";
+import { initializeEmailJS, sendMail } from "../../scripts/sendMail";
 
-function Contact() {
-
-    function initializeEmailJS() {
-        emailjs.init("cpjC4NJP5ymKa_Zz5"); 
-    }
-    
-    function sendMail() {
-        var params = {
-            name: document.getElementById("name").value,
-            email: document.getElementById("email").value,
-            message: document.getElementById("message").value
-        };
-    
-    const serviceID = "portfolio_contact_form";
-    const templateID = "template_54b1z2m";
-    
-    emailjs.send(serviceID, templateID, params)
-        .then((res) => {
-            document.getElementById("name").value = "";
-            document.getElementById("email").value = "";
-            document.getElementById("message").value = "";
-            console.log("Success:", res);
-            alert("Thank you for contacting me! I will get back to you soon.");
-        })
-        .catch((err) => {
-            console.error("Failed to send email:", err);
-            alert("There was an error sending your message. Please try again later.");
-        });
-    }
+const ContactPage = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [isSubmit, setIsSubmit] = useState(false);
 
     useEffect(() => {
         initializeEmailJS();
@@ -39,17 +15,29 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
 
-        sendMail();
+        sendMail({ name, email, message }).then(() => {
+            setIsSubmit(true);
+            setName("");
+            setEmail("");
+            setMessage("");
+        });
     }
 
     return (
-        <>
-            <div className="form-container">
+        <div className="form-container">
+            { !isSubmit ? (
                 <form className="form-body" onSubmit={handleSubmit}>
                     <div className="field">
                         <label className="label" htmlFor="name">Name</label>
                         <div className="control has-icons-left">
-                            <input className="input" type="text" id="name" placeholder="Name" required />
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="Name"
+                                required
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                            />
                             <span className="icon is-small is-left">
                                 <i className="fas fa-user" />
                             </span>
@@ -58,7 +46,14 @@ function Contact() {
                     <div className="field">
                         <label className="label" htmlFor="email">Email</label>
                         <div className="control has-icons-left">
-                            <input className="input" type="email" id="email" placeholder="Email" required />
+                            <input
+                                className="input"
+                                type="email"
+                                placeholder="Email"
+                                required
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
                             <span className="icon is-small is-left">
                                 <i className="fas fa-envelope" />
                             </span>
@@ -67,7 +62,13 @@ function Contact() {
                     <div className="field">
                         <label className="label" htmlFor="message">Message</label>
                         <div className="control">
-                            <textarea className="textarea" id="message" placeholder="Type your message here" required></textarea>
+                            <textarea
+                                className="textarea"
+                                placeholder="Type your message here"
+                                required
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                            ></textarea>
                         </div>
                     </div>
                     <div className="field is-grouped">
@@ -79,9 +80,11 @@ function Contact() {
                         </div>
                     </div>
                 </form>
-            </div>
-        </>
+            ) : (
+                <div className="ty-msg">Thank you for contacting me! I will get back to you soon.</div>
+            )}
+        </div>
     );
-}
+};
 
-export default Contact;
+export default ContactPage;

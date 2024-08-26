@@ -6,7 +6,6 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 6px 5px 7px 0px rgba(32, 32, 32, 0.166);
     padding: 16px;
     border-radius: 15px;
     transform: scale(1);
@@ -16,7 +15,7 @@
 .card-container:hover {
     transform: scale(1.04);
     cursor: pointer;
-    box-shadow: 0px 0px 20px 5px rgba(13, 255, 243, 0.274);
+    box-shadow: 4px 7px 1px rgb(64, 64, 64);
 }
 
 .img-container {

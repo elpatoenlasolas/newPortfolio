@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import './PortfolioCard.css';
 import katoWeb from '../../images/kato-web.png';
 
 

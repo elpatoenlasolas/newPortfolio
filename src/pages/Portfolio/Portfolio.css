@@ -8,3 +8,7 @@
 .hero {
   animation: fadeIn 1s linear 1;
 }
+
+.gh-link:hover {
+  color: rgb(135, 207, 255);
+}

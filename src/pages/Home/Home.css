@@ -1,12 +1,13 @@
 @import '../../components/fx/fx.css';
 
 .wb-link:hover {
-  color: rgb(251, 199, 54);
+  color: rgb(50, 10, 143);
+  text-shadow: 1px 1px 43x rgba(128, 128, 128, 0.353);
   font-weight: 600;
 }
 
 .pref:hover {
-  color: rgb(54, 192, 251);
+  color: rgb(16, 83, 124);
   font-weight: 600;
 }
 

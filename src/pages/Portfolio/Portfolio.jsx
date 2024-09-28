@@ -14,7 +14,7 @@ return (
         <div className="hero-body">
           <p className="title">Portfolio</p>
           <p className="subtitle">Here are some of my most recent works.</p>
-          <p>You can find more on my <span className="wb-link"><strong><Link to="https://github.com/elpatoenlasolas" target="_blank">GitHub</Link></strong></span></p>
+          <p>You can find more on my <span className="gh-link"><strong><Link to="https://github.com/elpatoenlasolas" target="_blank">GitHub</Link></strong></span></p>
         </div>
       </section>
   {/* Title Hero */}

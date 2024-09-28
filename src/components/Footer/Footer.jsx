@@ -10,8 +10,8 @@ function Footer() {
             </div>
             <div className="social">
                 <span className="icon">
-                    <Link to="https://github.com/elpatoenlasolas" target="_blank"><i className="link fa-brands fa-github"></i></Link>
-                    <Link to="https://linkedin.com/in/patricio-funes-cardoso" target="_blank"><i className="link fa-brands fa-linkedin"></i></Link>
+                    <Link to="https://github.com/elpatoenlasolas" alt="link to github" target="_blank"><i className="link fa-brands fa-github"></i></Link>
+                    <Link to="https://linkedin.com/in/patricio-funes-cardoso" alt="link to linkedin" target="_blank"><i className="link fa-brands fa-linkedin"></i></Link>
                 </span>
             </div>
         </footer>

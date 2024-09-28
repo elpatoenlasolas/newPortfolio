@@ -15,7 +15,7 @@
 .card-container:hover {
     transform: scale(1.04);
     cursor: pointer;
-    box-shadow: 4px 7px 1px rgb(64, 64, 64);
+    box-shadow: 1px 1px 40px rgba(58, 138, 195, 0.25);
 }
 
 .img-container {

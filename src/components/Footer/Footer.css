@@ -5,35 +5,20 @@
     justify-content: center;
   }
   
-  .icon {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  
-  .icon i {
-    margin: 5px;
-    transition: all .15s ease-in;
-  }
-  
-  .fa-instagram {
-    font-size: 25px;
-  }
-  
-  .icon i:hover {
-    color: rgba(124, 122, 122, 0.755);
-  }
-  
-  .fa-github {
-    font-size: 25px;
-  }
 
-  .fa-linkedin {
-    font-size: 27px;
-  }
 
-  .footer {
-    animation: 
-    slideUp linear 1.5s 1,
-    fadeIn linear 1.5s 1;
-  }
+.fa-icon {
+  margin: 1px;
+  font-size: 25px;
+  color: rgb(35, 35, 35);
+}
+
+.fa-icon:hover {
+  color: rgb(61, 61, 61);
+}
+
+.footer {
+  animation: 
+  slideUp linear 1.5s 1,
+  fadeIn linear 1.5s 1;
+}

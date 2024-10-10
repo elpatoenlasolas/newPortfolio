@@ -4,12 +4,16 @@
  max-height: 42px;
 }
 
+.navbar-item {
+  padding: .15rem .75rem;
+}
+
 a.navbar-item {
   transition: all .2s ease-in;
 }
 
 a.navbar-item:hover {
-  background-color: rgba(42, 42, 42, 0.672) !important;
+  background-color: rgba(9, 152, 255, 0.593) !important;
   color:white !important;
   border-radius: 5px;
   }
@@ -22,7 +26,7 @@ a.navbar-item:hover {
 
 @media screen and (max-width: 768px){
 .navbar-menu {
-  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.232);
+  box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.232);
   position: absolute;
   z-index: 999;
   margin-right: 75px;
@@ -36,7 +40,7 @@ a.navbar-item:hover {
   align-items: flex-end;
 }
 a.navbar-item:hover {
-  background-color: rgba(42, 42, 42, 0.672) !important;
+  background-color: rgba(9, 152, 255, 0.593) !important;
   color: rgb(7, 7, 7);
   border-radius: 0;
   }

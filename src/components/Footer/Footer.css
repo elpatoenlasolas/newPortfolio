@@ -1,10 +1,8 @@
 @import '../fx/fx.css';
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
+.icon {
+  width: 100% !important;
+}
 
 .fa-icon {
   margin: 1px;

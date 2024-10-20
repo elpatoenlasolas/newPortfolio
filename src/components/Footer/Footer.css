@@ -1,6 +1,6 @@
 @import '../fx/fx.css';
 
-.social {
+.social-links {
     display: flex;
     justify-content: center;
   }

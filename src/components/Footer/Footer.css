@@ -1,12 +1,12 @@
 @import '../fx/fx.css';
 
-footer .has-text-centered.iconos svg {
+.iconos {
   margin: 1px;
   font-size: 25px;
   color: #505050;
 }
 
-footer .has-text-centered.iconos svg:hover {
+.iconos:hover {
   color: #3d3d3d;
 }
 

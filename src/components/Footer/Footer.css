@@ -1,13 +1,18 @@
 @import '../fx/fx.css';
 
-svg.iconos {
-  margin: 1px;
-  font-size: 25px !important;
-  color: #505050;
+.social-links {
+  display: flex;
+  justify-content: center;
 }
 
-svg.iconos:hover {
-  color: #3d3d3d;
+.fa-icon {
+margin: 1px;
+font-size: 25px;
+color: #232323;
+}
+
+.fa-icon:hover {
+color: #3d3d3d;
 }
 
 .footer {

@@ -1,14 +1,14 @@
 @import '../fx/fx.css';
 
-/* a {
+.iconos {
   margin: 1px;
   font-size: 25px;
-  color: #4c4c4c;
+  color: #4c4c4c !important;
 }
 
-a:hover {
+.iconos:hover {
   color: #3d3d3d;
-} */
+}
 
 .footer {
   animation: 

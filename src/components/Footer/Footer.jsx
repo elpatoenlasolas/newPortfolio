@@ -16,7 +16,6 @@ function Footer() {
           to="https://github.com/elpatoenlasolas"
           alt="link to github"
           target="_blank"
-          className="icons"
         >
           <FaGithub />
         </Link>
@@ -24,7 +23,6 @@ function Footer() {
           to="https://linkedin.com/in/patricio-funes-cardoso"
           alt="link to linkedin"
           target="_blank"
-          className="icons"
         >
           <FaLinkedin />
         </Link>

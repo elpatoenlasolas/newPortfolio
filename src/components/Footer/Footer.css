@@ -1,6 +1,6 @@
 @import '../fx/fx.css';
 
-a {
+/* a {
   margin: 1px;
   font-size: 25px;
   color: #4c4c4c;
@@ -8,7 +8,7 @@ a {
 
 a:hover {
   color: #3d3d3d;
-}
+} */
 
 .footer {
   animation: 

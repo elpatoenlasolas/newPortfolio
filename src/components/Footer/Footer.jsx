@@ -11,12 +11,11 @@ function Footer() {
         </p>
         <p>All rights reserved ® | PFC | 2024</p>
       </div>
-      <div className="has-text-centered">
+      <div className="has-text-centered iconos">
         <Link
           to="https://github.com/elpatoenlasolas"
           alt="link to github"
           target="_blank"
-          className="iconos"
         >
           <FaGithub />
         </Link>
@@ -24,7 +23,6 @@ function Footer() {
           to="https://linkedin.com/in/patricio-funes-cardoso"
           alt="link to linkedin"
           target="_blank"
-          className="iconos"
         >
           <FaLinkedin />
         </Link>

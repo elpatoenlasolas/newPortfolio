@@ -1,12 +1,12 @@
 @import '../fx/fx.css';
 
-.icons {
+a.icons {
   margin: 1px;
   font-size: 25px;
   color: #4c4c4c;
 }
 
-.icons:hover {
+a.icons:hover {
   color: #3d3d3d;
 }
 

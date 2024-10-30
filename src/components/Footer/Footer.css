@@ -2,7 +2,7 @@
 
 svg.iconos {
   margin: 1px;
-  font-size: 25px;
+  font-size: 25px !important;
   color: #505050;
 }
 

@@ -1,12 +1,12 @@
 @import '../fx/fx.css';
 
-.iconos {
+svg.iconos {
   margin: 1px;
   font-size: 25px;
   color: #505050;
 }
 
-.iconos:hover {
+svg.iconos:hover {
   color: #3d3d3d;
 }
 
